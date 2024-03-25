@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: darkslategray;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    width: 960px;
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+button#random, button#rainbow {
+    width: 150px;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+button:active {
+    transform: scale(.9);
+}
